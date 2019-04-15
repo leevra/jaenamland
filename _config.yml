@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 재남부동산연구소
+email: help@leevra.com
+description: 부동산 투자의 시작, 확실한 수익형 투자를 원하신다면 재부연 공부가 답입니다. 아파트, 빌라, 오피스텔, 토지, 상가 분양 매매 잘 해봐요^^ > # this means to ignore newlines until "baseurl:"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jaenamland.leeseungju.com" # the base hostname & protocol for your site
+
+social_sharing: true
+github_username:  jekyll
+google_analytic_id:
+disqus_name:
+
+permalink: /:title
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num.html'
+  title: ':title - page :num'
+  sort_reverse: true
+
+autopages:
+  enabled: true
+  categories:
+    title: 'Posts in category :cat'
+  tags:
+    title: 'Posts tagged with :tag'
+  collections:
+    title: 'Posts in collection :coll'
+
+# jekyll seo tag settings
+logo: assets/images/example-image.png
+twitter:
+  username: jekyllrb
+
+# Build settings
+markdown: kramdown
+sass:
+  style: compressed
+
+theme: jekyll-theme-minimal
