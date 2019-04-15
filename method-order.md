@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title: 재부연 소책자 신청
 permalink: /method-order
 show_in_nav: true
 ---
